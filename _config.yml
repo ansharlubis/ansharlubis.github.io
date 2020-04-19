@@ -14,7 +14,7 @@ sass:
   style: :nested
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "Luthfan Lubis"
+title:		           "Luthfan A. Lubis"
 description:	       "a random blog"
 author:              "Luthfan Anshar Lubis"
 
