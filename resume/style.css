@@ -1,0 +1,29 @@
+.wrapper {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+body {
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: none;
+    border-collapse: collapse;
+}
+
+.left-col {
+    width: 50%;
+}
+.right-col {
+    width: 50%;
+}
