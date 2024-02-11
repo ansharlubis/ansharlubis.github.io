@@ -9,5 +9,3 @@ kramdown:
   syntax_highlighter: rouge
 
 permalink: pretty
-
-future: true
