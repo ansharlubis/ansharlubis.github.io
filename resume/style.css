@@ -27,3 +27,11 @@ table, th, td {
 .right-col {
     width: 50%;
 }
+
+.spaced-list li {
+    margin-bottom: 5px;
+}
+
+.spaced-list li:last-child {
+    margin-bottom: 0;
+}
