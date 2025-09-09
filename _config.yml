@@ -9,3 +9,8 @@ kramdown:
   syntax_highlighter: rouge
 
 permalink: pretty
+
+collections:
+  diary:
+    output: true
+    permalink: /diary/:name/
