@@ -1,174 +1,184 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>About me</title>
+    <meta charset="UTF-8" />
+    <title>Luthfan Anshar Lubis - Resume</title>
 
     <link rel="stylesheet" type="text/css" href="./style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
   </head>
 
   <body class="wrapper">
-    <h1>Luthfan Anshar Lubis</h1>
-    <p>
-        Software Engineer, FLYWHEEL Inc.
-    </p>
-    <ul class="list">
-        <li>E-mail: luthfanlubis[at]gmail.com / luthfanlubis[at]prg.is.titech.ac.jp</li>
-        <li>GitHub: <a href="https://www.github.com/ansharlubis">ansharlubis</a></li>
-        <li>Location: Tokyo, Japan</li>
-    </ul>
+    <header class="header">
+      <h1>Luthfan Anshar Lubis</h1>
+      <p>
+          Software Engineer
+      </p>
+      <ul class="list">
+          <li>E-mail: luthfanlubis[at]gmail.com / luthfanlubis[at]prg.is.titech.ac.jp</li>
+          <li>GitHub: <a href="https://www.github.com/ansharlubis">ansharlubis</a></li>
+          <li>Location: Tokyo, Japan</li>
+      </ul>
+    </header>
 
     <h2>Work Experience</h2>
     <table>
-        Software Engineer, FLYWHEEL Inc.
-        <br>
-        April 2024 - present
-        <br style="margin-bottom: 5px;">
-        I design and implement technical solutions for client data. Tasks include:
-        <ul>
-            
-            <li>Develop data pipelines using Dagster to integrate customer data with company systems.</li>
-            <li>Perform data transformations using Snowflake for other data infrastructures through dbt.</li>
-            <li>Create and refine search functionality through Elasticsearch.</li>
-            <li>Build backend microservices using Micronaut framework.</li>
-            <li>Configure server infrastructure using Kubernetes and Terraform tailored to project requirements.</li>
-            <li>Provide technical mentorship to team members and newer employees.</li>
-        </ul>
-        
+        <tr>
+            <td><b>Software Engineer, FLYWHEEL Inc.</b></td>
+            <td>Apr 2024 – present</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                Design and implement technical solutions for client data. Tasks include:
+                <ul>
+                    <li>Develop data pipelines using Dagster to integrate customer data with company systems.</li>
+                    <li>Perform data transformations using Snowflake for other data infrastructures through dbt.</li>
+                    <li>Create and refine search functionality through Elasticsearch.</li>
+                    <li>Build backend microservices using Micronaut framework.</li>
+                    <li>Configure server infrastructure using Kubernetes and Terraform tailored to project requirements.</li>
+                    <li>Provide technical mentorship to team members and newer employees.</li>
+                </ul>
+            </td>
+        </tr>
     </table>
 
     <h2>Education</h2>
 
-	<table>
-        <tr>
-            <td>Doctor of Science (All But Dissertation)</td>
-            <td>2021 - 2024 </td>
-            <td>Mathematical and Computing Science, Tokyo Institute of Technology</td>
-        </tr>
-	    <tr>
-	        <td>Master of Science</td>
-	        <td>2019 - 2021</td>
-	        <td>Mathematical and Computing Science, Tokyo Institute of Technology</td>
-	    </tr>
-	    <tr>
-	        <td>Bachelor of Science</td>
-	        <td>2015 - 2019</td>
-	        <td>Information Science, Tokyo Institute of Technology</td>
-	    </tr>
-	</table>
+    <ul class="spaced-list">
+        <li><b>Doctor of Science (All But Dissertation)</b>
+            <br><i>Mathematical and Computing Science, Tokyo Institute of Technology</i>
+            <br><i>2021 – 2024</i>
+        </li>
+        <li><b>Master of Science</b>
+            <br><i>Mathematical and Computing Science, Tokyo Institute of Technology</i>
+            <br><i>2019 – 2021</i>
+        </li>
+        <li><b>Bachelor of Science</b>
+            <br><i>Information Science, Tokyo Institute of Technology</i>
+            <br><i>2015 – 2019</i>
+        </li>
+    </ul>
 
     <h2>Research Experience</h2>
-    <ol class="spaced-list">
-        <li>Object-Oriented Programming Language with Versions
-            <br>This research investigated the design and implementation of an object-oriented
-            programming language with versioning support.
-            I approach this by introducing version as a type's resource.
-        </li>
-        <li>GPGPU Programming Framework Research
-            <br>Research Assistant at Tokyo Institute of Technology
+    <ul class="spaced-list">
+        <li><b>Object-Oriented Programming Language with Versions</b>
+            <br><i>Tokyo Institute of Technology</i>
             <br>
-            <i>May 2021 – March 2023</i>
+            <i>2021 – 2024</i>
+            <br>This research investigates the design and implementation of an object-oriented
+            programming language with versioning support,
+            introducing version as a type's resource.
+        </li>
+        <li><b>GPGPU Programming Framework Research</b>
+            <br><i>Research Assistant, Tokyo Institute of Technology</i>
+            <br>
+            <i>May 2021 – Mar 2023</i>
             <br>
             Assisting implementation of a high-speed GPGPU framework for Python.</li>
-        <li>Malicious Access Detection Through Log Data Research
-            <br>Research Assistant at Tokyo Institute of Technology
+        <li><b>Malicious Access Detection Through Log Data Research</b>
+            <br><i>Research Assistant, Tokyo Institute of Technology</i>
             <br>
-            <i>April 2018 – March 2019</i>
+            <i>Apr 2018 – Mar 2019</i>
             <br>
             Assisting research on extracting information from the university’s 
             internal security network logs using statistical tools. Work focused on data manipulation using Python.
         </li>
-    </ol>
+    </ul>
 
     <h2>Peer-reviewed Papers</h2>
     <ol class="spaced-list">
-        <li>Y. Tanabe, <u><b>L. A. Lubis</b></u>, T. Aotani, H. Masuhara. Compilation Semantics for a Programming Language with Versions. The 21st Asian Symposium on Programming Languages and System. Nov 2023.</li>
-        <li><u><b>L. A. Lubis</b></u>, Y. Tanabe, T. Aotani, H. Masuhara. BatakJava: An Object-oriented Programming Language With Versions. Software Language Engineering (SLE). December 2022.</li>
-        <li>Y. Tanabe, <u><b>L. A. Lubis</b></u>, T. Aotani, H. Masuhara. A Step Toward Programming with Versions in Real-World Functional Languages. 14th International Workshop on Context-oriented Programming and Advanced Modularity (COP). June 2022.</li>
-        <li>Y. Tanabe, <u><b>L. A. Lubis</b></u>, T. Aotani, H. Masuhara. A Functional Programming Language with Versions. The Art, Science, and Engineering of Programming, vol. 6, no. 1, 2022.</li>
+        <li>Y. Tanabe, <u><b>L. A. Lubis</b></u>, T. Aotani, H. Masuhara. Compilation Semantics for a Programming Language with Versions. The 21st Asian Symposium on Programming Languages and System. Nov 2023. <a href="https://link.springer.com/chapter/10.1007/978-981-99-8311-7_1">↗</a></li>
+        <li><u><b>L. A. Lubis</b></u>, Y. Tanabe, T. Aotani, H. Masuhara. BatakJava: An Object-oriented Programming Language With Versions. Software Language Engineering (SLE). December 2022. <a href="https://dl.acm.org/doi/abs/10.1145/3567512.3567531">↗</a></li>
+        <li>Y. Tanabe, <u><b>L. A. Lubis</b></u>, T. Aotani, H. Masuhara. A Step Toward Programming with Versions in Real-World Functional Languages. 14th International Workshop on Context-oriented Programming and Advanced Modularity (COP). June 2022. <a href="https://dl.acm.org/doi/abs/10.1145/3570353.3570359">↗</a></li>
+        <li>Y. Tanabe, <u><b>L. A. Lubis</b></u>, T. Aotani, H. Masuhara. A Functional Programming Language with Versions. The Art, Science, and Engineering of Programming, vol. 6, no. 1, 2022. <a href="https://doi.org/10.48550/arXiv.2107.07301">↗</a></li>
     </ol>
 
-    <h2>Talks and Presentations</h2>
+    <h2>Workshop Papers</h2>
     <ol class="spaced-list">
-        <li>L. A. Lubis. Polymorphism for Programming With Versions. Student Research Competition, European Conference on Object-Oriented Programming 2023. Jul 2023.</li>
-        <li>L. A. Lubis. Toward Parameterized Versions in Object-oriented Version Programming. Programming and Programming Language Workshop 2023. Nagoya. Mar 2023.</li>
         <li>F. A. Alfansuri, H. Masuhara, <u><b>L. Lubis</b></u>, Y. Cong. Supporting Multiple Inheritance in an Object-Oriented DSL for GPGPU by Class Hierarchy Transformation. 39th JSSST Annual Conference. Aug-Sep 2022.</li>
-        <li>L. A. Lubis. Implementation Concept of Chatbot as a Programming Learning Aid. 3rd Annual Scientific Symposium of Indonesian Collegians (ASSIGN) in Japan. Sep 2021.</li>
-        <li>L. A. Lubis. Object-oriented Programming with Versions. 13th International Workshop on Context-oriented Programming and Advanced Modularity (COP). July 2021.</li>
-        <li>L. A. Lubis, Y. Tanabe, T. Aotani, H. Masuhara. BatakJava: A Java Extension with Versions. 37th JSSST Annual Conference. Sep 2020.</li>
+    </ol>
+
+    <h2>Presentations</h2>
+    <ol class="spaced-list">
+        <li>[Poster] L. A. Lubis. Polymorphism for Programming With Versions. Student Research Competition, European Conference on Object-Oriented Programming 2023. Jul 2023.</li>
+        <li>[Poster] L. A. Lubis. Toward Parameterized Versions in Object-oriented Version Programming. Programming and Programming Language Workshop 2023. Nagoya. Mar 2023.</li>
+        <li>[Talk] L. A. Lubis. Implementation Concept of Chatbot as a Programming Learning Aid. 3rd Annual Scientific Symposium of Indonesian Collegians (ASSIGN) in Japan. Sep 2021.</li>
+        <li>[Talk] L. A. Lubis. Object-oriented Programming with Versions. 13th International Workshop on Context-oriented Programming and Advanced Modularity (COP). Jul 2021.</li>
+        <li>[Poster] L. A. Lubis, Y. Tanabe, T. Aotani, H. Masuhara. BatakJava: A Java Extension with Versions. 37th JSSST Annual Conference. Sep 2020.</li>
     </ol>
 
     <h2>Honors and Awards</h2>
-    <ol class="spaced-list">
-        <li>Tokyo Tech Advanced Human Resource Development Fellowship
-            <br><i>April 2021 – March 2024</i>
+    <ul class="spaced-list">
+        <li><b>Tokyo Tech Advanced Human Resource Development Fellowship</b>
+            <br><i>Apr 2021 – Mar 2024</i>
         </li>
-        <li>Tsuji International Scholarship Foundation
-            <br><i>April 2020 – March 2021</i>
+        <li><b>Tsuji International Scholarship Foundation</b>
+            <br><i>Apr 2020 – Mar 2021</i>
         </li>
-        <li>East Asian Circle of Applied Technology Scholarship
-            <br><i>April 2019 – March 2020</i>
+        <li><b>East Asian Circle of Applied Technology Scholarship</b>
+            <br><i>Apr 2019 – Mar 2020</i>
         </li>
-        <li>Japanese Government MEXT Scholarship
-            <br><i>April 2014 – March 2019</i>
+        <li><b>Japanese Government MEXT Scholarship</b>
+            <br><i>Apr 2014 – Mar 2019</i>
         </li>
-    </ol>
+    </ul>
 
-    <h2>Other Experience</h2>
-    <ol class="spaced-list">
-        <li>LFortran Compiler Implementor
-            <br><i>December 2022 - March 2024</i>
-            <br>I planned and implemented a generic type system for Fortran.
-            <a href="https://github.com/lfortran/lfortran/pulls?q=is%3Apr+is%3Aclosed+author%3Aansharlubis+">Link.</a>
+    <h2>Open Source &amp; Projects</h2>
+    <ul class="spaced-list">
+        <li><b>LFortran Compiler Implementor</b>
+            <br><i>Dec 2022 – Mar 2024</i>
+            <br>Planned and implemented a generic type system for Fortran.
+            <a href="https://github.com/lfortran/lfortran/pulls?q=is%3Apr+is%3Aclosed+author%3Aansharlubis+">↗</a>
         </li>
-        <li>LPython Compiler Contributor
-            <br><i>June - September 2022</i>
-            <br>I planned and implemented a proof of concept generic type system 
+        <li><b>LPython Compiler Contributor</b>
+            <br><i>Jun – Sep 2022</i>
+            <br>Planned and implemented a generic type system for Python
             during Google Summer of Code for Python Software Foundation.
-            <a href="https://github.com/lcompilers/lpython/pulls?q=is%3Apr+is%3Aclosed+author%3Aansharlubis">Link.</a>
+            <a href="https://github.com/lcompilers/lpython/pulls?q=is%3Apr+is%3Aclosed+author%3Aansharlubis">↗</a>
         </li>
-        <li>Indonesian language Teacher, Gowell Japan. 
-            <br><i>2017 - 2023</i>
+        <li><b>Domain-Specific Language Design Intern</b>
+            <br><i>nau data lab</i>
+            <br><i>Aug – Sep 2019</i>
+            <br>Implemented a domain-specific language (DSL) to describe musical notes
+            and calculate Angklung musical instrument assignments.
+            <a href="https://github.com/ansharlubis/numusic">↗</a>
+        </li>
+    </ul>
+
+    <h2>Teaching Experience</h2>
+    <ul class="spaced-list">
+        <li><b>Teaching Assistant</b>
+            <br><i>Tokyo Institute of Technology</i>
+            <ul>
+                <li>
+                    Exercises in Fundamentals of Data Science
+                    <br><i>Oct 2023 – Nov 2023</i>
+                </li>
+                <li>
+                    Computer Science I-II
+                    <br><i>Sep 2018 – Feb 2020</i>
+                    <br>Assisting introductory programming classes for first-year students
+                    from all departments.
+                </li>
+                <li>
+                    Information Literacy I-II
+                    <br><i>Apr – Aug 2019</i>
+                    <br>Assisting introductory classes for first-year students on the topic
+                    of computer.
+                </li>
+            </ul>
+        </li>
+        <li><b>Indonesian Language Teacher</b>
+            <br><i>Gowell Japan</i>
+            <br><i>2017 – 2023</i>
             <br>Part-time Indonesian language teacher for mostly Japanese students.
         </li>
-        <li>Teaching Assistant, Tokyo Institute of Technology</li>
-        <ul>
-            <li>
-                Exercises in Fundamentals of Data Science
-                <br><i>Oct 2023 – Nov 2023</i>
-            </li>
-            <li>
-                Computer Science I-II
-                <br><i>Sep 2018 – Feb 2020</i>
-                <br>Assisting introductory programming classes for first-year students
-                from all departments.                
-            </li>
-            <li>
-                Information Literacy I-II
-                <br><i>Apr – Aug 2019</i>
-                <br>Assisting introductory classes for first-year students on the topic
-                of computer.
-            </li>
-        </ul>
-        <li>Domain-Specific Language Design Internship, nau data lab
-            <br><i>August – September 2019</i>
-            I implemented a domain-specific language (DSL) to describe musical notes
-            and calculate Angklung musical instrument assignments.
-            <a href="https://github.com/ansharlubis/numusic">Link</a>.
-        </li>
-    </ol>
+    </ul>
 
-    <h2>Activities</h2>
-    <ol class="spaced-list">
-        <li>Participant in ASPIRE Forum, Tokyo Institute of Technology
-            <br><i>July 2019</i>
-            <br>
-            The annual event gathers students from universities making up the ASPIRE (Asia) 
-            and IDEA (Europe) League to have discussion on the topic of better living.
-        </li>
+    <h2>Academic Service</h2>
+    <ul class="spaced-list">
         <li>
-            Reviewer
+            <b>Reviewer</b>
             <ul>
                 <li>
                     ACM SIGPLAN SPLASH Onward! 2020 Essay Track
@@ -182,7 +192,7 @@
             </ul>
         </li>
         <li>
-            Student Volunteer
+            <b>Student Volunteer</b>
             <ul>
                 <li>
                     ACM SIGPLAN Conference on Systems, Programming, 
@@ -193,13 +203,14 @@
                 </li>
             </ul>
         </li>
-    </ol>    
+    </ul>    
 
     <h2>Language Skills</h2>
-    <ol class="spaced-list">
-        <li>TOEIC, 990/990, taken in June 2018</li>
-        <li>IELTS, 8.0/9.0, taken in May 2018</li>
-        <li>Japanese Language Proficiency Test N1, passed in 2019</li>
-    </ol>
-    
-    
+    <ul class="spaced-list">
+        <li>Indonesian — Native</li>
+        <li>English — Fluent (TOEIC 990/990, IELTS 8.0/9.0)</li>
+        <li>Japanese — Fluent (JLPT N1)</li>
+    </ul>
+
+  </body>
+</html>
