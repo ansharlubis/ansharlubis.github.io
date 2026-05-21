@@ -14,3 +14,5 @@ collections:
   diary:
     output: true
     permalink: /diary/:name/
+
+name: luthfan
