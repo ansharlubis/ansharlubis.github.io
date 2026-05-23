@@ -1,164 +1,208 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
   <head>
-    <title>About me</title>
+    <meta charset="UTF-8" />
+    <title>Luthfan Anshar Lubis - 履歴書</title>
 
     <link rel="stylesheet" type="text/css" href="./style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
   </head>
 
   <body class="wrapper">
-    <h1>Luthfan Anshar Lubis</h1>
-    <p>東京工業大学　数理・計算科学系　博士課程3年</p>
-    <ul class="list">
-        <li>E-mail: luthfanlubis[at]gmail.com / luthfanlubis[at]prg.is.titech.ac.jp</li>
-        <li>GitHub: <a href="https://www.github.com/ansharlubis">ansharlubis</a></li>
-        <li>Location: Tokyo, Japan</li>
-    </ul>
+    <header class="header">
+      <p class="lang-switch"><a href="./index.html">English</a></p>
+      <h1>Luthfan Anshar Lubis</h1>
+      <p>
+          ソフトウェアエンジニア
+      </p>
+      <ul class="list">
+          <li>E-mail: luthfanlubis[at]gmail.com / luthfanlubis[at]prg.is.titech.ac.jp</li>
+          <li>GitHub: <a href="https://www.github.com/ansharlubis">ansharlubis</a></li>
+          <li>Location: Tokyo, Japan</li>
+      </ul>
+    </header>
+
+    <h2>職歴</h2>
+    <table>
+        <tr>
+            <td><b>ソフトウェアエンジニア、FLYWHEEL Inc.</b></td>
+            <td>2024年4月 – 現在</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                クライアント向けデータソリューションを提供する技術プロジェクトをリード・推進。業務内容は以下の通り：
+                <ul>
+                    <li>プロジェクト全体をリードし、システムアーキテクチャの設計やクロスファンクショナルなデリバリーを調整。</li>
+                    <li>既存の本番システムの安定稼働を維持。</li>
+                    <li>データパイプライン（Dagster）、変換処理（dbt、Athena、Snowflake）、検索機能（Elasticsearch）を構築。</li>
+                    <li>バックエンドマイクロサービス（Micronaut）の構築およびクラウドインフラ（Kubernetes、Terraform）の設定。</li>
+                    <li>チームメンバーや新入社員への技術的なメンタリングを提供。</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
 
     <h2>学歴</h2>
-	<table>
-	    <tr>
-	        <td>修士</td>
-	        <td>2021</td>
-	        <td>東京工業大学　数理計算科学系</td>
-	    </tr>
-	    <tr>
-	        <td>学部</td>
-	        <td>2019</td>
-	        <td>東京工業大学　情報科学科</td>
-	    </tr>
-	</table>
 
-    <h2>研究</h2>
-    <ol>
-        <li>バーションによるオブジェクト指向言語プログラミング（博士研究）
-            <br>東京工業大学　プログラミング研究室　</li>
-            <b>内容</b>：意味論の一部としてバーションを言語のオブジェクト指向言語の型システムに導入
-        <li><a href="https://github.com/prg-titech/Sanajeh" style="text-decoration: none;">
-            GPGPUプログラミングのフレームワーク
-            </a>
-            <br>
-            東京工業大学　リサーチアシスタント
-            <br>
-            <i>2021年5月－2023年3月</i>
-            <br>
-            <b>内容</b>：高速GPGPU向けのPythonフレームワークSanajeh</a>の実装</li>
-        <li>ログデータ調査による不正アクセス検知
-            <br>東京工業大学　リサーチアシスタント
-            <br>
-            <i>2018年4月－2019年3月</i>
-            <br>
-            <b>内容</b>：統計ツールを用いて大学内のネットワーク・ログから情報を抽出する研究を支援。Pythonを使用したデータ操作が中心。
+    <ul class="spaced-list">
+        <li><b>博士課程（単位取得退学）</b>
+            <br><i>数理・計算科学系、東京工業大学</i>
+            <br><i>2021年 – 2024年</i>
         </li>
-    </ol>
+        <li><b>修士</b>
+            <br><i>数理・計算科学系、東京工業大学</i>
+            <br><i>2019年 – 2021年</i>
+        </li>
+        <li><b>学士</b>
+            <br><i>情報科学科、東京工業大学</i>
+            <br><i>2015年 – 2019年</i>
+        </li>
+    </ul>
+
+    <h2>研究経験</h2>
+    <ul class="spaced-list">
+        <li><b>バージョンによるオブジェクト指向言語プログラミング</b>
+            <br><i>東京工業大学</i>
+            <br>
+            <i>2021年 – 2024年</i>
+            <br>バージョンを型のリソースとして導入することで、バージョニングをサポートするオブジェクト指向プログラミング言語の設計と実装を研究。
+        </li>
+        <li><b>GPGPUプログラミングフレームワーク研究</b>
+            <br><i>リサーチアシスタント、東京工業大学</i>
+            <br>
+            <i>2021年5月 – 2023年3月</i>
+            <br>
+            Python向け高速GPGPUフレームワークの実装を支援。</li>
+        <li><b>ログデータ調査による不正アクセス検知研究</b>
+            <br><i>リサーチアシスタント、東京工業大学</i>
+            <br>
+            <i>2018年4月 – 2019年3月</i>
+            <br>
+            統計ツールを用いて大学内のセキュリティネットワークログから情報を抽出する研究を支援。Pythonを使用したデータ操作が中心。
+        </li>
+    </ul>
 
     <h2>査読論文</h2>
-    <ol>
-        <li><a href="https://arxiv.org/abs/2310.00298" style="text-decoration: none;">
-            Y. Tanabe, <u><b>L. A. Lubis</b></u>, T. Aotani, H. Masuhara. Compilation Semantics for a Programming Language with Versions. The 21st Asian Symposium on Programming Languages and System（2023年11）</li>
-            </a>
-        <li><a href="https://dl.acm.org/doi/abs/10.1145/3567512.3567531" style="text-decoration: none;">
-            <u><b>L. A. Lubis</b></u>, Y. Tanabe, T. Aotani, H. Masuhara. BatakJava: An Object-oriented Programming Language With Versions. Software Language Engineering (SLE)（2022年12月）</li>
-            </a>    
-        <li><a href="https://dl.acm.org/doi/abs/10.1145/3570353.3570359" style="text-decoration: none;">
-            Y. Tanabe, <u><b>L. A. Lubis</b></u>, T. Aotani, H. Masuhara. A Step Toward Programming with Versions in Real-World Functional Languages. 14th International Workshop on Context-oriented Programming and Advanced Modularity（2022年6月）</li>
-            </a>
-        <li><a href="https://arxiv.org/abs/2107.07301" style="text-decoration: none;">
-            Y. Tanabe, <u><b>L. A. Lubis</b></u>, T. Aotani, H. Masuhara. A Functional Programming Language with Versions. The Art, Science, and Engineering of Programming, vol. 6, no. 1（2022年）
-            </a>
-        </li>
+    <ol class="spaced-list">
+        <li>Y. Tanabe, <u><b>L. A. Lubis</b></u>, T. Aotani, H. Masuhara. Compilation Semantics for a Programming Language with Versions. The 21st Asian Symposium on Programming Languages and System. 2023年11月. <a href="https://link.springer.com/chapter/10.1007/978-981-99-8311-7_1">↗</a></li>
+        <li><u><b>L. A. Lubis</b></u>, Y. Tanabe, T. Aotani, H. Masuhara. BatakJava: An Object-oriented Programming Language With Versions. Software Language Engineering (SLE). 2022年12月. <a href="https://dl.acm.org/doi/abs/10.1145/3567512.3567531">↗</a></li>
+        <li>Y. Tanabe, <u><b>L. A. Lubis</b></u>, T. Aotani, H. Masuhara. A Step Toward Programming with Versions in Real-World Functional Languages. 14th International Workshop on Context-oriented Programming and Advanced Modularity (COP). 2022年6月. <a href="https://dl.acm.org/doi/abs/10.1145/3570353.3570359">↗</a></li>
+        <li>Y. Tanabe, <u><b>L. A. Lubis</b></u>, T. Aotani, H. Masuhara. A Functional Programming Language with Versions. The Art, Science, and Engineering of Programming, vol. 6, no. 1, 2022年. <a href="https://doi.org/10.48550/arXiv.2107.07301">↗</a></li>
+    </ol>
+
+    <h2>査読なし論文</h2>
+    <ol class="spaced-list">
+        <li>F. A. Alfansuri, H. Masuhara, <u><b>L. Lubis</b></u>, Y. Cong. Supporting Multiple Inheritance in an Object-Oriented DSL for GPGPU by Class Hierarchy Transformation. 39th JSSST Annual Conference. 2022年8月–9月.</li>
     </ol>
 
     <h2>発表</h2>
-    <ol>
-        <li>L. A. Lubis. Polymorphism for Programming With Versions. Student Research Competition, European Conference on Object-Oriented Programming 2023（2023年7月）</li>
-        <li>L. A. Lubis. Toward Parameterized Versions in Object-oriented Version Programming. Programming and Programming Language Workshop 2023. Nagoya（2023年3月）</li>
-        <li><a href="https://jssst.or.jp/files/user/taikai/2022/papers/5-L.pdf" style="text-decoration: none;">
-            F. A. Alfansuri, H. Masuhara, <u><b>L. Lubis</b></u>, Y. Cong. Supporting Multiple Inheritance in an Object-Oriented DSL for GPGPU by Class Hierarchy Transformation. 39th JSSST Annual Conference（2022年8月－9月）</li>
-            </a>    
-        <li>L. A. Lubis. Toward Parameterized Versions in Object-oriented Version Programming. PPL 2023（2023年3月）</li>
-        <li>L. A. Lubis. Implementation Concept of Chatbot as a Programming Learning Aid. 3rd Annual Scientific Symposium of Indonesian Collegians (ASSIGN) in Japan（2021年9月）</li>
-        <li>L. A. Lubis. Object-oriented Programming with Versions. 13th International Workshop on Context-oriented Programming and Advanced Modularity（2021年7月）</li>
-        <li><u><b>L. A. Lubis</b></u>, Y. Tanabe, T. Aotani, H. Masuhara. BatakJava: A Java Extension with Versions. 37th JSSST Annual Conference（2020年9月）</li>
+    <ol class="spaced-list">
+        <li>[ポスター] L. A. Lubis. Polymorphism for Programming With Versions. Student Research Competition, European Conference on Object-Oriented Programming 2023. 2023年7月.</li>
+        <li>[ポスター] L. A. Lubis. Toward Parameterized Versions in Object-oriented Version Programming. Programming and Programming Language Workshop 2023. Nagoya. 2023年3月.</li>
+        <li>[講演] L. A. Lubis. Implementation Concept of Chatbot as a Programming Learning Aid. 3rd Annual Scientific Symposium of Indonesian Collegians (ASSIGN) in Japan. 2021年9月.</li>
+        <li>[講演] L. A. Lubis. Object-oriented Programming with Versions. 13th International Workshop on Context-oriented Programming and Advanced Modularity (COP). 2021年7月.</li>
+        <li>[ポスター] L. A. Lubis, Y. Tanabe, T. Aotani, H. Masuhara. BatakJava: A Java Extension with Versions. 37th JSSST Annual Conference. 2020年9月.</li>
     </ol>
 
-    <h2>奨学金</h2>
-    <ol>
-        <li>東京工業大学高度人材育成博士フェローシップ
-            <br><i>2021年4月－2024年3月（予定）</i>
+    <h2>受賞・奨学金</h2>
+    <ul class="spaced-list">
+        <li><b>東京工業大学高度人材育成博士フェローシップ</b>
+            <br><i>2021年4月 – 2024年3月</i>
         </li>
-        <li>辻国際奨学金
-            <br><i>2020年4月－2021年3月</i>
+        <li><b>辻国際奨学金</b>
+            <br><i>2020年4月 – 2021年3月</i>
         </li>
-        <li>東亜留学生育友会奨学金
-            <br><i>2019年4月－2020年3月</i>
+        <li><b>東亜留学生育友会奨学金</b>
+            <br><i>2019年4月 – 2020年3月</i>
         </li>
-        <li>日本政府（文部科学省）奨学金
-            <br><i>2014年4月－2019年3月</i>
+        <li><b>日本政府（文部科学省）奨学金</b>
+            <br><i>2014年4月 – 2019年3月</i>
         </li>
-    </ol>
+    </ul>
 
-    <h2>実務経験</h2>
-    <ol>
-        <li><a href="https://github.com/lfortran/lfortran/" style="text-decoration: none;">
-            LFortranコンパイラ
-            </a>
-            <br><i>2022年12月－現在</i>
-            <br><b>内容</b>：ジェネリクス型の実装を担当
+    <h2>オープンソース・プロジェクト</h2>
+    <ul class="spaced-list">
+        <li><b>LFortranコンパイラ実装者</b>
+            <br><i>2022年12月 – 2024年3月</i>
+            <br>Fortran向けジェネリクス型システムの設計・実装を担当。
+            <a href="https://github.com/lfortran/lfortran/pulls?q=is%3Apr+is%3Aclosed+author%3Aansharlubis+">↗</a>
         </li>
-        <li><a href="https://github.com/lcompilers/lpython" style="text-decoration: none;">
-            LPythonコンパイラ
-            </a>
-            <br><i>2022年6月－9月</i>
-            <br><b>内容</b>：Google Summer of Codeでジェネリクス型の実装、Python Software Foundation
+        <li><b>LPythonコンパイラコントリビューター</b>
+            <br><i>2022年6月 – 9月</i>
+            <br>Google Summer of Code（Python Software Foundation）にてPython向けジェネリクス型システムの設計・実装を担当。
+            <a href="https://github.com/lcompilers/lpython/pulls?q=is%3Apr+is%3Aclosed+author%3Aansharlubis">↗</a>
         </li>
-        <li>共同レビュアー
-            <br>ACM SIGPLAN SPLASH Onward! 2020 Essay Track</li>
-        <li>学生ボランティア
-            <br>ACM SIGPLAN Conference on Systems, Programming, Languages, and Applications: Software for Humanity (SPLASH 2020, 2021)とInternational Conference on Functional Programming (ICFP 2021)</li>
-        <li>ドメイン特化言語設計インターンシップ　なうデータ研究所
-            <br><i>2019年8月－9月</i>
-            <br><b>内容</b>：アンクルン（伝統楽器）のグループ演奏の割り当てを決める楽譜のパーサーとインタプリタを実装
+        <li><b>ドメイン特化言語設計インターン</b>
+            <br><i>なうデータ研究所</i>
+            <br><i>2019年8月 – 9月</i>
+            <br>アンクルン（伝統楽器）の演奏割り当てを計算するためのドメイン特化言語（DSL）を実装。
+            <a href="https://github.com/ansharlubis/numusic">↗</a>
         </li>
-        <li>インドネシア語講師　ゴーウェル株式会社. 
-            <br><i>2017年－2023年</i>
-            <br><b>内容</b>：日本人生徒を対象としたインドネシア語講師のアルバイト.
-        </li>
-    </ol>
+    </ul>
 
     <h2>指導経験</h2>
-    <ol>
-        <li>ティーチング・アシスタント</li>
-        <table>
-            <tr>
-                <td class="left-col">基盤データサイエンス演習</td>
-                <td class="right-col"><i>2023年10月―11月</i></td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <td class="left-col">コンピュータサイエンスI-II</td>
-                <td class="right-col"><i>2018年9月―2020年2月</i></td>
-            </tr>
-        </table>
-        入門プログラミングの入門授業のアシスタント
-        <table>
-            <tr>
-                <td class="left-col" colspan="1">情報リテラシーI-II</td>
-                <td class="right-col" colspan="1"><i>2019年4月－8月</i></td>
-            </tr>
-        </table>
-        情報系の入門授業のアシスタント
+    <ul class="spaced-list">
+        <li><b>ティーチング・アシスタント</b>
+            <br><i>東京工業大学</i>
+            <ul>
+                <li>
+                    基盤データサイエンス演習
+                    <br><i>2023年10月 – 11月</i>
+                </li>
+                <li>
+                    コンピュータサイエンスI-II
+                    <br><i>2018年9月 – 2020年2月</i>
+                    <br>全学部の1年生向け入門プログラミング授業のアシスタント。
+                </li>
+                <li>
+                    情報リテラシーI-II
+                    <br><i>2019年4月 – 8月</i>
+                    <br>1年生向けコンピュータ入門授業のアシスタント。
+                </li>
+            </ul>
+        </li>
+        <li><b>インドネシア語講師</b>
+            <br><i>ゴーウェル株式会社</i>
+            <br><i>2017年 – 2023年</i>
+            <br>主に日本人生徒を対象としたインドネシア語のアルバイト講師。
+        </li>
+    </ul>
 
-    </ol>
+    <h2>学術サービス</h2>
+    <ul class="spaced-list">
+        <li>
+            <b>レビュアー</b>
+            <ul>
+                <li>
+                    ACM SIGPLAN SPLASH Onward! 2020 Essay Track
+                </li>
+                <li>
+                    The Art, Science, and Engineering of Programming Volume 10 Artifact Evaluation
+                </li>
+                <li>
+                    The Art, Science, and Engineering of Programming Volume 11 Artifact Evaluation
+                </li>
+            </ul>
+        </li>
+        <li>
+            <b>学生ボランティア</b>
+            <ul>
+                <li>
+                    ACM SIGPLAN Conference on Systems, Programming,
+                    Languages, and Applications; Software for Humanity (SPLASH 2020, 2021)
+                </li>
+                <li>
+                    International Conference on Functional Programming (ICFP 2021)
+                </li>
+            </ul>
+        </li>
+    </ul>
 
-    <h2>言語</h2>
-    <ol>
-        <li>TOEIC：990/990（2018年6月）</li>
-        <li>IELTS：8.0/9.0（2018年5月）</li>
-        <li>日本語能力試験：1級（2019年に合格）</li>
-    </ol>
-    
+    <h2>語学力</h2>
+    <ul class="spaced-list">
+        <li>インドネシア語 — 母語</li>
+        <li>英語 — 流暢（TOEIC 990/990、IELTS 8.0/9.0）</li>
+        <li>日本語 — 流暢（JLPT N1）</li>
+    </ul>
+
     
