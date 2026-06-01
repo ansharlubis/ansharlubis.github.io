@@ -18,7 +18,7 @@ bundle exec jekyll serve
 
 2. Put posts under `/_diary`
 
-3. Add the following to `config.yml`
+3. Add the following to `_config.yml`
 
 ```
 collections:
